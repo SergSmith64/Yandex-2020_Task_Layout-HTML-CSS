@@ -13,7 +13,7 @@ https://www.figma.com/file/MTZ7K0gUaN07iNIj8YCcLm/Russia-%2F-desktop-%2B-mobile?
 * .comments (Комментарии фотографов)
 * .footer (Подвал сайта)
 
-### REVIEW:
+### Job:
 
 1. Create branch "gh-pages" :
 
