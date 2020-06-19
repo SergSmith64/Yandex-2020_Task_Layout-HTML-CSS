@@ -1,0 +1,25 @@
+.comments {
+    max-width: 1184px;
+    margin: 102px auto;
+    /* __ УБРАТЬ __ */
+    background-color: blueviolet;
+  }
+
+  .comments__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .comment-item {
+    width: 382px;
+    font-size: 14px;
+    line-height: 24px;
+    /* __ УБРАТЬ __ */
+    background-color: saddlebrown;
+  }
+
+  .comment__img {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+  }
