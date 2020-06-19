@@ -1,6 +1,7 @@
 .intro {
 	max-width: 984px;
-    margin: 0 auto;
+	margin: 0 auto;
+	/* __ УБРАТЬ __ */
     background-color: blue;
 }
 
