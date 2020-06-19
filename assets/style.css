@@ -8,6 +8,7 @@
 @import url("../blocks/text-subtitle/text-subtitle.css");
 @import url("../blocks/video/video.css");
 @import url("../blocks/comments/comments.css");
+@import url("../blocks/footer/footer.css");
 
 body {
 	color: #FFFFFF;
