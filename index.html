@@ -3,39 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>review/html-css</title>
+    <title>Путешествия по России</title>
     <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    <header class="header">
-        <h1>review/html-css</h1>
-    </header>
-    <section class="photo-grid">
-        <div class="photo-grid__item">111</div>
-        <div class="photo-grid__item">222</div>
-        <div class="photo-grid__item">333</div>
-        <div class="photo-grid__item">444</div>
-    </section>
+    <div class="container">
+        <header class="header">
+            <a href="#" class="header__logo">
+                <img src="./assets/images/svg/logo-russia.svg" alt="Logo Russia">
+            </a>
+            <div class="header-lang">
+                <a href="#" class="header__lang-link">Ru</a>
+                <a href="#" class="header__lang-link">En</a>
+            </div>
+        </header>
 
-    <section class="places">
-        <div class="places__item">AAA</div>
-        <div class="places__item">BBB</div>
-        <div class="places__item">CCC</div>
-        <div class="places__item">DDD</div>
-    </section>
+        <main>
+            <section class="banner">
+                <h1 class="banner__title">Путешествия<br> по России</h1>
+                <p class="bunner__subtitle">Настоящая страна не в выпусках<br> новостей, а здесь.</p>
+            </section>
 
-    <section class="video">video</section>
+            <section class="intro">
+                <div class="intro-img">
+                    <img class="intro__img" src="./assets/images/content/header__kalegin-michail-179870-unsplash.jpg" alt="Intro Image">
+                    <p class="intro-img__description">ваша полка — верхняя</p>
+                </div>
+            </section>
 
-    <section class="comments">
-        <div class="comments__item">Lorem, 1 ipsum dolor.</div>
-        <div class="comments__item">Lorem, 2 ipsum dolor.</div>
-        <div class="comments__item">Lorem, 3 ipsum dolor.</div>
-    </section>
-
-    <footer class="footer">
-        Copyright 2020
-    </footer>
+            <section class="photo-grid">
+                <div class="photo-grid__item">111</div>
+                <div class="photo-grid__item">222</div>
+                <div class="photo-grid__item">333</div>
+                <div class="photo-grid__item">444</div>
+            </section>
+        
+            <section class="places">
+                <div class="places__item">AAA</div>
+                <div class="places__item">BBB</div>
+                <div class="places__item">CCC</div>
+                <div class="places__item">DDD</div>
+            </section>
+        
+            <section class="video">video</section>
+        
+            <section class="comments">
+                <div class="comments__item">Lorem, 1 ipsum dolor.</div>
+                <div class="comments__item">Lorem, 2 ipsum dolor.</div>
+                <div class="comments__item">Lorem, 3 ipsum dolor.</div>
+            </section>
+        </main>
+    
+        <footer class="footer">
+            Copyright 2020
+        </footer>
+    </div>
 
 </body>
 </html>
