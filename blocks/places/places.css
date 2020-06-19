@@ -1,0 +1,18 @@
+.places {
+    /* __ УБРАТЬ __ */
+    background-color: lightgreen;
+}
+
+.place-item {
+	max-width: 984px;
+    margin: 80px auto;
+    /* __ УБРАТЬ __ */
+    background-color: crimson;
+}
+
+.place-item__title {
+	width: 457px;
+	font-size: 72px;
+	line-height: 65px;
+	margin: 0 40px 0 0;
+}
