@@ -1,13 +1,28 @@
 .places {
-    /* __ УБРАТЬ __ */
-    background-color: lightgreen;
+	/* __ УБРАТЬ __ */
+	background-color: lightgreen;
 }
 
 .place-item {
 	max-width: 984px;
-    margin: 80px auto;
-    /* __ УБРАТЬ __ */
-    background-color: crimson;
+	margin: 80px auto;
+	/* __ УБРАТЬ __ */
+	background-color: crimson;
+}
+
+.place-item__head,
+.place-item__info {
+	display: flex;
+}
+
+.place-item__head {
+	align-items: flex-end;
+	margin-bottom: 60px;
+}
+
+.place-item__img {
+	max-width: 460px;
+	max-height: 460px;
 }
 
 .place-item__title {
@@ -15,4 +30,37 @@
 	font-size: 72px;
 	line-height: 65px;
 	margin: 0 40px 0 0;
+	/* __ УБРАТЬ __ */
+	background-color: lightslategray;
+}
+.url {
+	margin-bottom: 2px;
+	/* __ УБРАТЬ __ */
+	background-color: palevioletred;
+}
+
+.url__head {
+	font-size: 12px;
+	letter-spacing: 0.2em;
+	color: #AAAAAA;
+}
+
+.url__link {
+	color: #FFF;
+	font-size: 18px;
+	border-bottom: 1px solid #FFF;
+}
+
+.place-item__text {
+	font-size: 18px;
+	line-height: 30px;
+	margin-left: 40px;
+	/* __ УБРАТЬ __ */
+	background-color: maroon;
+}
+
+.place-item__text-part {
+	margin: 0 0 36px;
+	/* __ УБРАТЬ __ */
+	background-color: midnightblue;
 }
