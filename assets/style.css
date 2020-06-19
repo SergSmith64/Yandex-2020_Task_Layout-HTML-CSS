@@ -17,6 +17,8 @@ body {
 	font-family: "Inter", sans-serif;
 	/* __ УБРАТЬ __ */
 	/* background-color: green; */
+	min-width: 320px;
+	box-sizing: border-box;
 }
 .container {
 	max-width: 1280px;
@@ -24,6 +26,21 @@ body {
 	/* __ УБРАТЬ __ */
 	background-color: brown;
 }
+@media (max-width: 1023px) {
+	.container {
+		padding: 0 24px;
+		/* __ УБРАТЬ __ */
+		background-color: darkslateblue;
+	}
+}
+@media (max-width: 767px) {
+	.container {
+		padding: 0 16px;
+		/* __ УБРАТЬ __ */
+		background-color: goldenrod;
+	}
+}
+
 a {
 	text-decoration: none;
 }
