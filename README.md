@@ -19,3 +19,4 @@ https://www.figma.com/file/MTZ7K0gUaN07iNIj8YCcLm/Russia-%2F-desktop-%2B-mobile?
 
 https://SergSmith64.github.io/Yandex-2020_Task_Layout-HTML-CSS
 
+2. Use Grid-CSS, BEM
