@@ -1,25 +1,21 @@
 .comments {
-    max-width: 1184px;
-    margin: 102px auto;
-    /* __ УБРАТЬ __ */
-    background-color: blueviolet;
-  }
+  max-width: 1184px;
+  margin: 102px auto;
+}
 
-  .comments__wrapper {
-    display: flex;
-    justify-content: space-between;
-  }
+.comments__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
 
-  .comment-item {
-    width: 382px;
-    font-size: 14px;
-    line-height: 24px;
-    /* __ УБРАТЬ __ */
-    background-color: saddlebrown;
-  }
+.comment-item {
+  width: 382px;
+  font-size: 14px;
+  line-height: 24px;
+}
 
-  .comment__img {
-    width: 97px;
-    height: 97px;
-    border-radius: 50%;
-  }
+.comment__img {
+  width: 97px;
+  height: 97px;
+  border-radius: 50%;
+}

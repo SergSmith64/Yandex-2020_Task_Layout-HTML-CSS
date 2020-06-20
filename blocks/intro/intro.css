@@ -1,8 +1,6 @@
 .intro {
     max-width: 984px;
     margin: 0 auto;
-    /* __ УБРАТЬ __ */
-    background-color: blue;
 }
 
 .intro__img {
@@ -37,15 +35,8 @@
     font-size: 14px;
     line-height: 24px;
     margin: 0;
-    /* max-width: 692px; */
-    max-width: 90%;
-    /* __ УБРАТЬ __ */
-    background-color: red;
+    width: 90%;
 }
-
-/* .intro__text p {
-	text-align: left;
-} */
 
 .intro__list {
     font-size: 13px;
@@ -69,11 +60,3 @@
         padding-right: 10px;
     }
 }
-
-/* @media only all and (max-width: 374px) {
-    .intro__text {
-        max-width: 100%;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-} */
