@@ -1,4 +1,4 @@
-@import url("../assets/fonts/fonts.css");
+@import url("../vendor/fonts/fonts.css");
 @import url("../blocks/header/header.css");
 @import url("../blocks/banner/banner.css");
 @import url("../blocks/intro/intro.css");
@@ -11,39 +11,44 @@
 @import url("../blocks/footer/footer.css");
 
 body {
-	color: #FFFFFF;
-	background-color: #2A2C2F;
-	font-size: 18px;
-	font-family: "Inter", sans-serif;
-	/* __ УБРАТЬ __ */
-	/* background-color: green; */
-	min-width: 320px;
-	box-sizing: border-box;
+  color: #FFFFFF;
+  background-color: #2A2C2F;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  /* __ УБРАТЬ __ */
+  /* background-color: green; */
+  min-width: 320px;
+  box-sizing: border-box;
 }
+
 .container {
-	max-width: 1280px;
-	margin: 0 auto;
-	/* __ УБРАТЬ __ */
-	background-color: brown;
-}
-@media (max-width: 1023px) {
-	.container {
-		padding: 0 24px;
-		/* __ УБРАТЬ __ */
-		background-color: darkslateblue;
-	}
-}
-@media (max-width: 767px) {
-	.container {
-		padding: 0 16px;
-		/* __ УБРАТЬ __ */
-		background-color: goldenrod;
-	}
+  max-width: 1280px;
+  margin: 0 auto;
+  /* __ УБРАТЬ __ */
+  /* background-color: brown; */
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
+
 li {
-	list-style: none;
+  list-style: none;
+}
+
+@media only all and (max-width: 1023px) {
+  .container {
+    padding: 0 24px;
+    /* __ УБРАТЬ __ */
+    /* background-color: darkslateblue; */
+  }
+}
+
+@media only all and (max-width: 767px) {
+  .container {
+    padding: 0 16px;
+    /* __ УБРАТЬ __ */
+    /* background-color: goldenrod; */
+  }
 }
